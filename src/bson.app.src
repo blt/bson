@@ -1,0 +1,12 @@
+{application, bson,
+ [
+  {description, "BSON v1.0 encode/decoder"},
+  {vsn, "0.1.0"},
+  {modules, [bson, bson_validate]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
